@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_marginTop="10dp"
     tools:context=".activities.MainActivity">
 
 
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <Button
@@ -48,8 +50,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="insert"
-            android:textSize="18sp" />
+            android:text="@string/insert"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_retrieveFromDb"
@@ -58,8 +63,11 @@
             android:layout_gravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
-            android:text="retrieve"
-            android:textSize="18sp" />
+            android:text="@string/retrieve"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -67,6 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <Button
@@ -75,8 +84,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="delete"
-            android:textSize="18sp" />
+            android:text="@string/delete"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_updateDb"
@@ -85,8 +97,11 @@
             android:layout_gravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
-            android:text="update"
-            android:textSize="18sp" />
+            android:text="@string/update"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
