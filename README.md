@@ -8,3 +8,6 @@ Note: roll no is primary key.
 You need to set the salt/passwork inside StudentDbOperation.java:
 
 sqLiteDatabase = studentDbCreation.getWritableDatabase("somePassword"); 
+
+# Screenshot
+![Alt text] (screenshot.png?raw=true "Demo screenshot")
