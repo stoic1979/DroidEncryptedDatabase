@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Droid Encrypted Database</string>
+    <string name="enter_student_name">enter student name</string>
+    <string name="enter_student_class">enter student class</string>
+    <string name="enter_student_roll_no">enter student roll no</string>
+    <string name="save_to_database">Save To Database</string>
+    <string name="retrieve_from_database">Retrieve From Database</string>
+    <string name="delete_from_database">delete from database</string>
+    <string name="update_database">update database</string>
+</resources>
